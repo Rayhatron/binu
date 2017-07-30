@@ -1,0 +1,9 @@
+<app title = "Hello World">
+<drawer>
+<menuitem
+    href="helloworld.xml"
+    default="true">
+    Homepage
+</menuitem>
+</drawer>
+</app>
