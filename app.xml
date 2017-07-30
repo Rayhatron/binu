@@ -1,16 +1,16 @@
 <app title="Hello World">
     <drawer>
         <menuitem
-            href="helloworld.xml"
+            href="./helloworld.xml"
             default="true">
             Homepage
         </menuitem>
         <menuitem
-            href="someotherpage.xml">
+            href="./someotherpage.xml">
             Some other page
         </menuitem>
         <menuitem
-            href="mystery.xml">
+            href="./mystery.xml">
             Who know whats here
         </menuitem>
     </drawer>
