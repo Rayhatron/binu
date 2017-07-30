@@ -1,9 +1,23 @@
 <app title = "Hello World">
-<drawer>
-<menuitem
-    href="helloworld.xml"
-    default="true">
-    Homepage
-</menuitem>
-</drawer>
+    <Drawer>
+        <MenuItem
+            href="helloworld.xml"
+            default="true">
+            Homepage
+        </MenuItem>
+        <MenuItem
+            href="someotherpage.xml">
+            Some other page
+        </MenuItem>
+        <MenuItem
+            href="mystery.xml">
+            Who know what's here
+        </MenuItem>
+    </Drawer>
+    <Menu>
+        <MenuItem action="usage">About</MenuItem>
+        <MenuItem action="share">Share app</MenuItem>
+        <MenuItem action="rate">Rate App</MenuItem>
+    </Menu>
+    <share action="send" title="biNu" text="Shared by biNu, check out this great app" subject="Rayhatron :)">
 </app>
