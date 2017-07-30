@@ -1,4 +1,4 @@
-<app title = "Hello World">
+<app title="Hello World">
     <drawer>
         <menuitem
             href="helloworld.xml"
@@ -14,10 +14,4 @@
             Who know whats here
         </menuitem>
     </drawer>
-    <menu>
-        <menuitem action="usage">About</menuitem>
-        <menuitem action="share">Share app</menuitem>
-        <menuitem action="rate">Rate App</menuitem>
-    </menu>
-    <share action="send" title="biNu" text="Shared by biNu, check out this great app" subject="Rayhatron :)">
 </app>
